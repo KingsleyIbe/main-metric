@@ -24,6 +24,7 @@ a {
   --whiteColor: #fff;
   --grayColor: #4A4A4A;
   --borderColor: #D9D9D9;
+  --averageColor: #A0B0B9;
 }
 
 .App {
@@ -56,6 +57,57 @@ a {
     .active {
       background-color: var(--linkActiveColor);
       color: var(--whiteColor);
+    }
+  }
+
+  .errors {
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+
+    .error-item h4 {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 28px;
+      color: var(--grayColor);
+    }
+
+    .error-item p {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 16px;
+      color: var(--averageColor);
+    }
+  }
+
+  .progress-container {
+    display: flex;
+    flex-direction: row;
+    height: 5px;
+    margin-top: 5px;
+    width: 100%;
+
+    span {
+      width: 100px;
+    }
+  }
+
+  .error-number {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+
+    p {
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 16px;
+      letter-spacing: 0px;
+      text-align: left;
+      color: var(--grayColor);
+      margin-top: 15px;
     }
   }
 }

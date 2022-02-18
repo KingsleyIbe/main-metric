@@ -23,6 +23,7 @@ a {
   --whiteColor: #fff;
   --grayColor: #4A4A4A;
   --borderColor: #D9D9D9;
+  --averageColor: #A0B0B9;
 }
 
 .App {
@@ -54,4 +55,48 @@ a {
 .App .flex-items .active {
   background-color: var(--linkActiveColor);
   color: var(--whiteColor);
+}
+.App .errors {
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+}
+.App .errors .error-item h4 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  color: var(--grayColor);
+}
+.App .errors .error-item p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--averageColor);
+}
+.App .progress-container {
+  display: flex;
+  flex-direction: row;
+  height: 5px;
+  margin-top: 5px;
+  width: 100%;
+}
+.App .progress-container span {
+  width: 100px;
+}
+.App .error-number {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+.App .error-number p {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: var(--grayColor);
+  margin-top: 15px;
 }/*# sourceMappingURL=App.css.map */

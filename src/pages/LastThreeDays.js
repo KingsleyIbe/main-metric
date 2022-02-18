@@ -1,6 +1,6 @@
 const LastThreeDays = () => (
   <div>
-    <h1>Last Three Days Route</h1>
+    <h1>.</h1>
   </div>
 );
 

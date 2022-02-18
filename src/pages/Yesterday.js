@@ -1,6 +1,6 @@
 const Yesterday = () => (
   <div>
-    <h1>Yesterday Route</h1>
+    <h1>.</h1>
   </div>
 );
 

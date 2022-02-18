@@ -1,6 +1,6 @@
 const LastHour = () => (
   <div>
-    <h1>Last hour Route</h1>
+    <h1>.</h1>
   </div>
 );
 
