@@ -1,0 +1,14 @@
+/* Reset default settings*/
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", Courier, monospace;
+}
+
+/* Variables *//*# sourceMappingURL=App.css.map */
