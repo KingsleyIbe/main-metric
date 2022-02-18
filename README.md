@@ -22,9 +22,9 @@ Project was built using JavaScript, React, SASS, Webpack,
 
 ## Live Demo
 
-[Live Demo Link](https://kingsleyibe.github.io/metrics-webapp/)
+[Live Demo Link](https://kingsleyibe.github.io/main-metric/)
 
-[Live Video Demo](https://www.loom.com/share/2fa09b1b58c7473f9faa4594fc6edcb6)
+[Live Video Demo](https://www.loom.com/share/83a02152f8e0498394ca3aab284099ca)
 
 ## Getting Started
 
