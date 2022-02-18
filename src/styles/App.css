@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Mochiy+Pop+P+One&family=Montserrat:wght@700&family=Open+Sans:wght@400;600&family=Roboto+Slab:wght@300;700&family=Roboto:wght@300&display=swap");
 /* Reset default settings*/
 *,
 *::after,
@@ -8,7 +9,49 @@
 }
 
 body {
-  font-family: "Open Sans", Courier, monospace;
+  font-family: "Open Sans", sans-serif;
 }
 
-/* Variables *//*# sourceMappingURL=App.css.map */
+a {
+  text-decoration: none;
+}
+
+/* Variables */
+:root {
+  --backColor: #000;
+  --linkActiveColor: #2196F3;
+  --whiteColor: #fff;
+  --grayColor: #4A4A4A;
+  --borderColor: #D9D9D9;
+}
+
+.App {
+  margin: auto;
+  width: 40%;
+  padding: 10px;
+  border: 1px solid var(--borderColor);
+  margin-top: 50px;
+}
+.App .page-title {
+  color: var(--grayColor);
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+}
+.App .flex-items {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-top: 20px;
+}
+.App .flex-items .link-item {
+  border: 1px solid var(--borderColor);
+  padding: 5px 10px;
+  color: var(--grayColor);
+}
+.App .flex-items .active {
+  background-color: var(--linkActiveColor);
+  color: var(--whiteColor);
+}/*# sourceMappingURL=App.css.map */
