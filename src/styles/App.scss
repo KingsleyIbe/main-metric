@@ -46,7 +46,6 @@ a {
   .flex-items {
     display: flex;
     flex-direction: row;
-    gap: 10px;
     margin-top: 20px;
 
     .link-item {
@@ -64,6 +63,7 @@ a {
     display: flex;
     flex-direction: row;
     gap: 70px;
+    margin-top: 30px;
 
     .faCircle {
       font-size: 8px;
@@ -147,6 +147,7 @@ a {
   .statistics-container {
     width: 100%;
     margin-top: 30px;
+    // margin-left: 20px;
 
 
     .stats-flex {
@@ -195,6 +196,8 @@ a {
           display: flex;
           flex-direction: row;
           gap: 10px;
+          margin-left: 60px;
+          margin-top: 5px;
 
           p:first-child {
             font-size: 20px;
@@ -219,6 +222,7 @@ a {
           display: flex;
           flex-direction: row;
           gap: 10px;
+          margin-left: 60px;
 
           p:first-child {
             font-size: 20px;

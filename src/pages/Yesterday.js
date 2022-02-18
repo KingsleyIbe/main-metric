@@ -1,7 +1,5 @@
 const Yesterday = () => (
-  <div>
-    <h1>.</h1>
-  </div>
+  <div />
 );
 
 export default Yesterday;
