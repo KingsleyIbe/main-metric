@@ -19,11 +19,11 @@ a {
 /* Variables */
 :root {
   --backColor: #000;
-  --linkActiveColor: #2196F3;
+  --linkActiveColor: #2196f3;
   --whiteColor: #fff;
-  --grayColor: #4A4A4A;
-  --borderColor: #D9D9D9;
-  --averageColor: #A0B0B9;
+  --grayColor: #4a4a4a;
+  --borderColor: #d9d9d9;
+  --averageColor: #a0b0b9;
 }
 
 .App {
@@ -99,4 +99,139 @@ a {
   text-align: left;
   color: var(--grayColor);
   margin-top: 15px;
+}
+.App .statistics-container {
+  width: 100%;
+  margin-top: 30px;
+}
+.App .statistics-container .stats-flex {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  padding-bottom: 30px;
+}
+.App .statistics-container .stats-flex .search-flex {
+  width: 100%;
+}
+.App .statistics-container .stats-flex .search-flex .search {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.App .statistics-container .stats-flex .search-flex .search h4 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: var(--grayColor);
+}
+.App .statistics-container .stats-flex .search-flex .search span {
+  background: #8bc34a;
+  border-radius: 60%;
+  padding: 7px;
+  font-size: 10px;
+  color: var(--whiteColor);
+}
+.App .statistics-container .stats-flex .search-flex .yesterday {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.App .statistics-container .stats-flex .search-flex .yesterday p:first-child {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 28px;
+  letter-spacing: 0px;
+  color: var(--grayColor);
+}
+.App .statistics-container .stats-flex .search-flex .yesterday p:nth-child(2) {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 16px;
+  letter-spacing: 0px;
+  color: var(--grayColor);
+}
+.App .statistics-container .stats-flex .search-flex .last-friday {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.App .statistics-container .stats-flex .search-flex .last-friday p:first-child {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 28px;
+  letter-spacing: 0px;
+  color: var(--averageColor);
+}
+.App .statistics-container .stats-flex .search-flex .last-friday p:nth-child(2) {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--averageColor);
+}
+.App .statistics-container .stats-flex .traffic {
+  width: 100%;
+}
+.App .statistics-container .stats-flex .traffic p:first-child,
+.App .statistics-container .stats-flex .traffic p:nth-child(2) {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 16px;
+}
+.App .statistics-container .stats-flex .traffic p:nth-child(3) {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 9px;
+  color: var(--averageColor);
+}
+.App .statistics-container .stats-flex .help {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.App .statistics-container .stats-flex .help p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 17px;
+  color: var(--grayColor);
+}
+.App .statistics-container .stats-flex .help p:nth-child(2) {
+  color: var(--linkActiveColor);
+}
+.App .statistics-container .stats-flex .clicks {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.App .statistics-container .stats-flex .clicks h4 {
+  color: #ff6a67;
+}
+.App .statistics-container .stats-flex .clicks span {
+  background-color: #ff6a67;
+  border-radius: 60%;
+  padding: 5px;
+  font-size: 10px;
+  color: var(--whiteColor);
+}
+.App .statistics-container .stats-flex .clicks-traffic {
+  width: 100%;
+}
+.App .statistics-container .stats-flex .clicks-traffic h4 {
+  font-size: 12px;
+  color: #ff6a67;
+}
+.App .statistics-container .stats-flex .clicks-traffic p {
+  font-size: 8px;
+}
+.App .statistics-container .stats-flex .clicks-traffic .help p {
+  font-size: 12px;
+  margin-top: 5px;
 }/*# sourceMappingURL=App.css.map */
