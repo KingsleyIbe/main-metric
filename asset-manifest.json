@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/main-metric/static/css/main.0afae626.css",
+    "main.js": "/main-metric/static/js/main.6c707dbe.js",
+    "index.html": "/main-metric/index.html",
+    "main.0afae626.css.map": "/main-metric/static/css/main.0afae626.css.map",
+    "main.6c707dbe.js.map": "/main-metric/static/js/main.6c707dbe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0afae626.css",
+    "static/js/main.6c707dbe.js"
+  ]
+}
