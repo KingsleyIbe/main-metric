@@ -1,8 +1,12 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFilter, faCartShopping, faHandPointer } from '@fortawesome/free-solid-svg-icons';
+
 const Statistics = () => (
   <div className="statistics-container">
     <div className="stats-flex">
       <div className="search-flex">
         <div className="search">
+          <FontAwesomeIcon icon={faFilter} className="faIcons" />
           <h4>Searches</h4>
           <span>+5%</span>
         </div>
@@ -28,6 +32,7 @@ const Statistics = () => (
     <div className="stats-flex">
       <div className="search-flex">
         <div className="clicks">
+          <FontAwesomeIcon icon={faHandPointer} className="faIcons" />
           <h4>Clicks</h4>
           <span>-13%</span>
         </div>
@@ -52,6 +57,7 @@ const Statistics = () => (
     <div className="stats-flex">
       <div className="search-flex">
         <div className="search sales">
+          <FontAwesomeIcon icon={faCartShopping} className="faIcons" />
           <h4>Sales</h4>
         </div>
         <div className="yesterday">

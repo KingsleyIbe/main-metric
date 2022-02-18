@@ -61,6 +61,12 @@ a {
   flex-direction: row;
   gap: 70px;
 }
+.App .errors .faCircle {
+  font-size: 8px;
+  color: #8bc34a;
+  margin-bottom: 2px;
+  margin-right: 4px;
+}
 .App .errors .error-item h4 {
   font-style: normal;
   font-weight: 600;
@@ -100,6 +106,23 @@ a {
   color: var(--grayColor);
   margin-top: 15px;
 }
+.App .error-number .faSquare {
+  font-size: 8px;
+  margin-bottom: 2px;
+  margin-right: 4px;
+}
+.App .error-number .fs1 {
+  color: #ffcc00;
+}
+.App .error-number .fs2 {
+  color: #5856d5;
+}
+.App .error-number .fs3 {
+  color: #2196f3;
+}
+.App .error-number .fs4 {
+  color: #a0b0b9;
+}
 .App .statistics-container {
   width: 100%;
   margin-top: 30px;
@@ -117,6 +140,13 @@ a {
   display: flex;
   flex-direction: row;
   gap: 10px;
+}
+.App .statistics-container .stats-flex .search-flex .faIcons {
+  color: var(--whiteColor);
+  background-color: var(--linkActiveColor);
+  padding: 10px;
+  border-radius: 50%;
+  margin-right: 20px;
 }
 .App .statistics-container .stats-flex .search-flex .search h4 {
   font-size: 16px;

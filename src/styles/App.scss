@@ -65,6 +65,13 @@ a {
     flex-direction: row;
     gap: 70px;
 
+    .faCircle {
+      font-size: 8px;
+      color: #8bc34a;
+      margin-bottom: 2px;
+      margin-right: 4px;
+    }
+
     .error-item h4 {
       font-style: normal;
       font-weight: 600;
@@ -109,6 +116,32 @@ a {
       color: var(--grayColor);
       margin-top: 15px;
     }
+
+    .faSquare {
+      font-size: 8px;
+      margin-bottom: 2px;
+      margin-right: 4px;
+    }
+
+    .fs1 {
+      color: #ffcc00;
+      ;
+    }
+
+    .fs2 {
+      color: #5856d5;
+      ;
+    }
+
+    .fs3 {
+      color: #2196f3;
+      ;
+    }
+
+    .fs4 {
+      color: #a0b0b9;
+      ;
+    }
   }
 
   .statistics-container {
@@ -129,6 +162,14 @@ a {
           display: flex;
           flex-direction: row;
           gap: 10px;
+        }
+
+        .faIcons {
+          color: var(--whiteColor);
+          background-color: var(--linkActiveColor);
+          padding: 10px;
+          border-radius: 50%;
+          margin-right: 20px;
         }
 
         .search h4 {
