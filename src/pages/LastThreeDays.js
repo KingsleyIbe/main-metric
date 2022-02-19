@@ -1,5 +1,11 @@
+import Errors from '../components/lastThreeDays/Errors';
+import Statistics from '../components/lastThreeDays/Statistics';
+
 const LastThreeDays = () => (
-  <div />
+  <div>
+    <Errors />
+    <Statistics />
+  </div>
 );
 
 export default LastThreeDays;

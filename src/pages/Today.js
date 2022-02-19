@@ -1,5 +1,11 @@
+import Errors from '../components/today/Errors';
+import Statistics from '../components/today/Statistics';
+
 const Today = () => (
-  <div />
+  <div>
+    <Errors />
+    <Statistics />
+  </div>
 );
 
 export default Today;
