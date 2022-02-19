@@ -19,7 +19,7 @@ const ProgressBar = (props) => {
 
 ProgressBar.propTypes = {
   bgcolor: PropTypes.string.isRequired,
-  progress: PropTypes.string.isRequired,
+  progress: PropTypes.bool.isRequired,
 };
 
 export default ProgressBar;

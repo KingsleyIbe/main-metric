@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircle, faSquare } from '@fortawesome/free-solid-svg-icons';
-import ProgressBar from './ProgressBar';
+import ProgressBar from '../ProgressBar';
 
 const Errors = () => (
   <div className="error-container">
@@ -11,26 +11,26 @@ const Errors = () => (
           {' '}
           <FontAwesomeIcon icon={faCircle} className="faCircle" />
           {' '}
-          Errors: 0.12%
+          Errors: 0.98%
         </h4>
-        <p>Average: 0.11%</p>
+        <p>Average: 0.90%</p>
       </div>
       <div className="error-item">
         <h4>
           {' '}
           <FontAwesomeIcon icon={faCircle} className="faCircle" />
           {' '}
-          Zeroes: 5.12%
+          Zeroes: 9.12%
         </h4>
-        <p>Average: 0.11%</p>
+        <p>Average: 3.11%</p>
       </div>
       <div className="error-item">
         <h4>
           {' '}
           <FontAwesomeIcon icon={faCircle} className="faCircle" />
-          Timeouts: 0.12%
+          Timeouts: 5.12%
         </h4>
-        <p>Average: 0.11%</p>
+        <p>Average: 5.11%</p>
       </div>
     </div>
     <div className="progress-container">
@@ -45,7 +45,7 @@ const Errors = () => (
           {' '}
           <FontAwesomeIcon icon={faSquare} className="faSquare fs1" />
           {' '}
-          Error 500: 1 256
+          Error 502: 1 356
         </p>
       </div>
       <div>
@@ -61,7 +61,7 @@ const Errors = () => (
           {' '}
           <FontAwesomeIcon icon={faSquare} className="faSquare fs3" />
           {' '}
-          Error 502: 650
+          Error 505: 450
         </p>
       </div>
       <div>
@@ -69,7 +69,7 @@ const Errors = () => (
           {' '}
           <FontAwesomeIcon icon={faSquare} className="faSquare fs4" />
           {' '}
-          Other: 330
+          Other: 333
         </p>
       </div>
     </div>
