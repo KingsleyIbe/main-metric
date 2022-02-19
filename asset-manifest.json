@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/main-metric/static/css/main.0afae626.css",
-    "main.js": "/main-metric/static/js/main.6c707dbe.js",
+    "main.css": "/main-metric/static/css/main.a31384bc.css",
+    "main.js": "/main-metric/static/js/main.56b1df4f.js",
     "index.html": "/main-metric/index.html",
-    "main.0afae626.css.map": "/main-metric/static/css/main.0afae626.css.map",
-    "main.6c707dbe.js.map": "/main-metric/static/js/main.6c707dbe.js.map"
+    "main.a31384bc.css.map": "/main-metric/static/css/main.a31384bc.css.map",
+    "main.56b1df4f.js.map": "/main-metric/static/js/main.56b1df4f.js.map"
   },
   "entrypoints": [
-    "static/css/main.0afae626.css",
-    "static/js/main.6c707dbe.js"
+    "static/css/main.a31384bc.css",
+    "static/js/main.56b1df4f.js"
   ]
 }
